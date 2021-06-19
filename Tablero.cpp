@@ -5,7 +5,7 @@ Tablero::Tablero(int dificultad) {
 	int valor=0;
 	switch(dificultad) {
 		case 1: {
-			CasillaBuscaMinas* casilla = new CasillaBuscaMinas();
+			/*CasillaBuscaMinas* casilla = new CasillaBuscaMinas();
 			
 			
 			for(int i=0; i<8; i++) {
@@ -19,10 +19,10 @@ Tablero::Tablero(int dificultad) {
 					}
 				}
 			}
-			delete casilla;
+			delete casilla;*/
 			break;
 		}
-		case 2: {
+		case 2: {/*
 			for(int i=0; i<10; i++) {
 				for(int j=0; j<10 ; j++) {
 					valor = rand()%2;
@@ -32,10 +32,10 @@ Tablero::Tablero(int dificultad) {
 						this->tablero[i][j] = casilla->descubierta;
 					}
 				}
-			}
+			}*/
 			break;
 		}
-		case 3: {
+		case 3: {/*
 			for(int i=0; i<12; i++) {
 				for(int j=0; j<12 ; j++) {
 					valor = rand()%2;
@@ -45,7 +45,7 @@ Tablero::Tablero(int dificultad) {
 						this->tablero[i][j] = casilla->descubierta;
 					}
 				}
-			}
+			}*/
 			break;
 		}
 
@@ -57,14 +57,7 @@ Tablero::~Tablero() {
 
 }
 
-void Tablero::imprimirMatriz() {
-	for(int i=0; i<12; i++) {
-		for(int j=0; j<12 ; j++) {
-			cout<<"["<<tablero[i][j] << "] ";
-		}
-		cout<<endl;
-	}
-}
+
 
 bool Tablero::destaparCasilla(int x,int y) {
 

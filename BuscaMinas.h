@@ -8,6 +8,7 @@ class BuscaMinas
 		~BuscaMinas();
 		bool jugar();
 		Tablero* tableroBombas();
+		void imprimirMatriz();
 		
 	private:
 		

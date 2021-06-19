@@ -26,11 +26,12 @@ int main(int argc, char** argv) {
 			case 1: {
 				bool ganaste;
 				ganaste = buscaminas->jugar();
-				
-				if(ganaste){
+
+				if(ganaste) {
 					cout<<"Felicidades Ganaste!!";
-				}else{
+				} else {
 					cout<<"Perdiste ni modo :v";
+
 				}
 			}
 			break;
@@ -38,9 +39,9 @@ int main(int argc, char** argv) {
 				cout<<"\nGracias por Jugar!!!\nBuen Dia";
 			}
 			break;
-
 		}
 	}
+
 
 
 

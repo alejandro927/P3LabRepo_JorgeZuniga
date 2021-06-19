@@ -27,5 +27,4 @@ bool BuscaMinas::jugar() {
 }
 
 
-BuscaMinas::BuscaMinas(int x, int y) {
-}
+

@@ -16,7 +16,7 @@ class Tablero
 		
 		int calcularBombas(int,int);
 		void marcarCasillas(int,int);
-		void imprimirMatriz();
+		
 		
 	private:
 		CasillaBuscaMinas*** tablero;
